@@ -1,1 +1,50 @@
-
+<!DOCTYPE html>
+<!-- By Your_Sensei2007 (Telegram/Instagram)-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="black">    
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Calculator</title>
+  
+</head>
+<body>
+  <div id="headings">
+    <h1>Calculator Web App</h1>
+    <h1>@Your_Sensei</h1>
+  </div>
+  <div id="calculator">
+    <input id="display" readonly="">    
+    <div class="keys">
+      <button onclick="addToDisplay('7')">7</button>     
+      <button onclick="addToDisplay('8')">8</button>     
+      <button onclick="addToDisplay('9')">9</button>     
+      <button onclick="addToDisplay('+')">+</button>           
+    </div>
+    <div class="keys">
+      <button onclick="addToDisplay('6')">6</button>     
+      <button onclick="addToDisplay('5')">5</button>     
+      <button onclick="addToDisplay('4')">4</button>     
+      <button onclick="addToDisplay('-')">-</button>           
+    </div>
+    <div class="keys">
+      <button onclick="addToDisplay('3')">3</button>     
+      <button onclick="addToDisplay('2')">2</button>     
+      <button onclick="addToDisplay('1')">1</button>     
+      <button onclick="addToDisplay('*')">×</button>           
+    </div>
+    <div class="keys">
+      <button onclick="addToDisplay('.')">.</button>     
+      <button onclick="addToDisplay('0')">0</button>     
+      <button onclick="result('=')">=</button>     
+      <button onclick="addToDisplay('/')">÷</button>           
+    </div>
+    <div class="keys">
+      <button onclick="clearAll()">C</button>
+    </div>    
+  </div>  
+  <script src="scripts/index.js"></script>
+</body>
+  </html>
+  
